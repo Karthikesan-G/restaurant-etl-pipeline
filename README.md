@@ -21,6 +21,7 @@ This project implements an **ETL (Extract, Transform, Load) pipeline** for proce
 - **PySpark**: Distributed data processing for cleaning and transformations.
 - **Snowflake**: Cloud data warehouse for silver (SCD2) and gold (star schema) layers.
 - **Apache Airflow**: Orchestrates daily pipeline execution.
+- **Docker**: Containerizes Airflow for portable and consistent deployment.
 - **Python**: Core language for scripting (version 3.8+).
 
 ## Project Structure
@@ -74,6 +75,7 @@ restaurant-etl-pipeline/
   - IAM roles for S3, Glue, and Athena access.
 - **Snowflake Account**: Configured instance with external stage, silver, and gold schemas.
 - **Apache Airflow**: Local or cloud-based setup (version 2.5+).
+- **Docker**: Installed for running Airflow containers (Docker Desktop or Docker Engine).
 - **PySpark**: Version 3.3+.
 - **Python**: Version 3.8 or higher.
 - **AWS Glue**: Configured crawler for raw data cataloging.
